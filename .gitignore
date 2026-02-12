@@ -43,3 +43,4 @@ manifests/secrets/
 
 pipeline.ipynb
 ~/*
+tensor-test/tuner_dir/*
