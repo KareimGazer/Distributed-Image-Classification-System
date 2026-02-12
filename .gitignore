@@ -44,3 +44,4 @@ manifests/secrets/
 pipeline.ipynb
 ~/*
 tensor-test/tuner_dir/*
+tensor-test/my_model.h5
