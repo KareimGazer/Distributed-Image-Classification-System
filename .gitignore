@@ -1,0 +1,45 @@
+# --- TensorFlow / Deep Learning ---
+*.h5
+*.pb
+*.tflite
+*.ckpt
+*.onnx
+# Ignore saved_model exports
+assets/
+variables/
+fingerprint.pb
+
+# --- Data & Weights ---
+# Never commit your training data or large weight files
+data/
+weights/
+models/
+*.npy
+*.npz
+
+# --- Training Logs ---
+# TensorBoard logs can get huge
+logs/
+events.out.tfevents.*
+
+# --- Python Environment ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# --- OS & IDE ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Distributed / Manifests ---
+# If you have local-only secrets in your manifests
+manifests/secrets/
+*.secret.yaml
+
+pipeline.ipynb
+~/*
